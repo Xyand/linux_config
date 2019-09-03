@@ -1,2 +1,3 @@
 cp .vimrc ~/.vimrc
-cp tmux.conf ~/tmux.conf
+cp tmux.conf ~/
+cp .gitconfig ~/
