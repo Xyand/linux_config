@@ -10,3 +10,4 @@ cp tmux.conf ~/
 cp .gitconfig ~/
 cp .bash_aliases ~/
 cp .bash_profile ~/
+cp .bashrc_common ~/
