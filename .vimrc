@@ -13,6 +13,9 @@ set expandtab
 set autoindent
 set smarttab
 
+"""""""""""" Etensions
+autocmd BufRead,BufNewFile *.json5 set filetype=json
+
 """""""""""" Vundle
 
 set nocompatible              " required
