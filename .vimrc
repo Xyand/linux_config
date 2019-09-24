@@ -4,6 +4,7 @@ inoremap jk <esc>
 " esc in command mode
 cnoremap jk <C-C>
 
+set mouse=a
 set number
 syntax on
 
