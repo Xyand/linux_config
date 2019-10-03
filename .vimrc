@@ -6,7 +6,13 @@ cnoremap jk <C-C>
 
 set mouse=a
 set number
+
+" Syntax
 syntax on
+
+" python-syntax Plugin
+let g:python_highlight_all = 1
+let g:python_version_2 = 0
 
 set tabstop=4
 set shiftwidth=4
@@ -39,6 +45,7 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'vim-scripts/indentpython.vim'
 Plugin 'kien/ctrlp.vim'
 Plugin 'davidhalter/jedi-vim'
+Plugin 'vim-python/python-syntax'
 
 " add all your plugins here (note older versions of Vundle
 " used Bundle instead of Plugin)
