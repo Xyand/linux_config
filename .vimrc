@@ -17,7 +17,7 @@ set smarttab
 
 
 """""""""""" Colors
-color desert
+colorscheme desert
 
 """""""""""" Etensions
 autocmd BufRead,BufNewFile *.json5 set filetype=json

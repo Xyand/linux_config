@@ -13,3 +13,6 @@ alias la='ls -lah'
 
 alias grep='grep --color -n'
 alias igrep='grep -i'
+
+alias vim='vim -T xterm-256color'
+alias vi='vim'
