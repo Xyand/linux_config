@@ -15,6 +15,10 @@ set expandtab
 set autoindent
 set smarttab
 
+
+"""""""""""" Colors
+color desert
+
 """""""""""" Etensions
 autocmd BufRead,BufNewFile *.json5 set filetype=json
 
