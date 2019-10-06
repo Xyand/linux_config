@@ -25,8 +25,11 @@ set smarttab
 """""""""""" Colors
 colorscheme desert
 
-"""""""""""" Etensions
+"""""""""""" Extensions
 autocmd BufRead,BufNewFile *.json5 set filetype=json
+
+" Remove trailing white space
+autocmd FileType python,c,cpp,java,php autocmd BufWritePre <buffer> %s/\s\+$//e
 
 """""""""""" Vundle
 
