@@ -49,6 +49,7 @@ Plugin 'vim-scripts/indentpython.vim'
 Plugin 'kien/ctrlp.vim'
 Plugin 'davidhalter/jedi-vim'
 Plugin 'vim-python/python-syntax'
+Plugin 'vim-airline/vim-airline'
 
 " add all your plugins here (note older versions of Vundle
 " used Bundle instead of Plugin)
