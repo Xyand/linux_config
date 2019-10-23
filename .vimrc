@@ -21,6 +21,8 @@ set expandtab
 set autoindent
 set smarttab
 
+" Lines on bottom
+set scrolloff=10 
 
 """""""""""" Colors
 colorscheme delek
