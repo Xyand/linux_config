@@ -16,3 +16,6 @@ alias igrep='grep -i'
 
 alias du1='du -d 1 -h | sort -h'
 alias du2='du -d 2 -h | sort -h'
+
+alias vim='vim -T xterm-256color'
+alias vi='vim'
