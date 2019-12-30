@@ -1,6 +1,6 @@
 #!/bin/bash -x
 
-cd $(dirname $0)
+pushd $(dirname $0)
 
 # Vim
 cp .vimrc ~/.vimrc
@@ -14,3 +14,5 @@ cp .bash_aliases ~/
 cp .bash_profile ~/
 cp .bashrc_common ~/
 cp .git-prompt.sh ~/
+
+popd
