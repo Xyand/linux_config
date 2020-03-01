@@ -21,6 +21,10 @@ set expandtab
 set autoindent
 set smarttab
 
+" Code folding
+set nofoldenable
+set foldmethod=syntax
+
 " Lines on bottom
 set scrolloff=10 
 
@@ -51,8 +55,10 @@ Plugin 'vim-scripts/indentpython.vim'
 Plugin 'kien/ctrlp.vim'
 Plugin 'davidhalter/jedi-vim'
 Plugin 'vim-python/python-syntax'
+Plugin 'tmhedberg/SimpylFold'
 Plugin 'vim-airline/vim-airline'
 Plugin 'tpope/vim-fugitive'
+Plugin 'mechatroner/rainbow_csv'
 
 " add all your plugins here (note older versions of Vundle
 " used Bundle instead of Plugin)
